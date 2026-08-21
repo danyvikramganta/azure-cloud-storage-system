@@ -1,10 +1,10 @@
 from azure.storage.blob import BlobServiceClient
 
 # Replace with your Azure connection string
-connection_string = "<YOUR_CONNECTION_STRING>"
-container_name = "mycontainer"
-file_path = "sample.txt"
-blob_name = "uploaded-sample.txt"
+connection_string = "<mycosmosdb.documents.azure.com:443/>"
+container_name = "mypro"
+file_path = "data.txt"
+blob_name = "uploaded.txt"
 
 # Connect to Azure Blob Service
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
